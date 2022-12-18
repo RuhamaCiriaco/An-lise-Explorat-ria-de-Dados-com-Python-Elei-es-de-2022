@@ -86,15 +86,15 @@ Vamos utilizar o código disponibilizado pelo próprio TSE ([link](https://www.t
 - Faça o *download* do código de descriptografia.
 """
 
-#!curl -s https://raw.githubusercontent.com/andre-marcos-perez/ebac-course-utils/develop/notebooks/2022_11_29/rdv.py -o rdv.py
+!curl -s https://raw.githubusercontent.com/andre-marcos-perez/ebac-course-utils/develop/notebooks/2022_11_29/rdv.py -o rdv.py
 
 """ - Instale o pacote de criptografia utilizado pelo código."""
 
-#!pip install asn1crypto==1.5.1
+!pip install asn1crypto==1.5.1
 
 """ - Substitua o texto `<NOME-DO-ARQUIVO-RDV>` pelo nome do arquivo RDV escolhido."""
 
-#!python rdv.py -r o00407-7107202600126.rdv > rdv.txt
+!python rdv.py -r o00407-7107202600126.rdv > rdv.txt
 
 """### **2.3. Limpeza**
 
